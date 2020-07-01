@@ -175,10 +175,62 @@ h3{
     font-size:25px;  
 }
 
-.copyright{
-    color:#707070;
-    font-size:15px;
-    margin-top:10%;
+
+/*Eanding of footer*/
+/*Eanding of footer*/
+
+
+
+
+
+/*starting of social-media*/
+/*starting of social-media*/
+
+.social-media{
+    text-align:center;
+    width:100%;
+    height:150px;
+    background-image: linear-gradient(45deg, #EC5197, #ED4B6E);
+
+
 }
-/*Eanding of footer*/
-/*Eanding of footer*/
+.copyright{
+    color:white;
+    font-size:15px;
+    margin-top:2%
+   
+}
+ p.active{
+    color:white;
+    font-size:20px;
+   
+}
+
+.social-media a{
+    font-size:30px;
+    color:white;
+    transition:all 0.2s;
+}
+
+.social-media a:hover{
+    color:skyblue;
+}
+
+.social-media a:first-child{
+    margin-left:none;
+}
+
+.fa-twitter-square{
+    margin-left:2%;
+}
+
+.fa-telegram-plane{
+    margin-left:2%
+}
+
+.fa-linkedin{
+    margin-left:2%;
+}
+
+/*Ending of social-media*/
+/*Eanding of social-media*/
