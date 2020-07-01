@@ -4,6 +4,7 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
     padding:0px;
 }
+
 h1{
     
     font-size:60px;
@@ -15,6 +16,7 @@ h1{
 section{
     height:600px;
 }
+
 .user-discription{
     background-image:url(images/header-bg.png);
     background-repeat:no-repeat;  
@@ -28,6 +30,7 @@ section{
 h2{
     font-size:35px;               
 }
+
 .half-width{
     width:40%;
     height:40%;
@@ -35,13 +38,17 @@ h2{
     margin-left:5%;
     padding:2%;
 }
+
 .half-width img{
     width:100%;
 }
+
 .half-width p{
     color:#707070;
-    font-size:20px;
+    font-size:15px;
+    text-align:justify;
 }
+
 .half-width a{
     text-decoration:none;
     background-image: linear-gradient(45deg, #EC5197, #ED4B6E);
@@ -63,17 +70,16 @@ h2{
    margin-bottom:5%;
 }
 
-
-
-
 .latest-workes h2{
     text-align:center;
 }
+
 .latest-workes{
     background-image:url(images/latest-work-bg.png);
     background-size:cover;
     height:400px;
 }
+
 .project{
     width:26.6666667%;
     float:left;
@@ -84,6 +90,7 @@ h2{
 .project img{
     width:100%;
 }
+
 .works-maindiv{
     width:90%;
     margin:0 auto;
@@ -93,6 +100,7 @@ h2{
 .footer{
     text-align:center;
 }
+
 h3{
   margin:0px;
 
@@ -102,29 +110,47 @@ h3{
    margin-top:5%;
    margin-bottom:5%;
 }
+
 .footer{
     background-image:url(images/footer-bg.png);
     background-size:cover;
 }
+
 .footer p{
     margin:0px;
-    font-size:15px;
+    font-size:12px;
     
 }
-.massage-box a{
-    text-decoration:none;
-    
-}
+
 .massage-box{
-    width: 40%;
-    height:200px;
+    width: 50%;
+    height:150px;
     background-color: #EC4C79;
     border-radius:10px;
     margin:5% auto;
-    position:center;
     color:white;
+    background-image: linear-gradient(45deg, #EC5197, #ED4B6E);
+    margin-bottom:8%;
     
 }
+
+.massage-box a{
+    text-decoration:none;
+    color:white;
+    font-weight: bold;
+    font-size:25px;
+    
+}
+
 .massage-box p{
-    position:center;
+    padding:5% 0% 2% 0%;
+    font-size:16px;
+   
+   
+}
+
+.copyright{
+    color:#707070;
+    font-size:15px;
+    margin-top:10%;
 }
