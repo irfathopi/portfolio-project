@@ -1,16 +1,9 @@
 
-
+/*used one time for separate tag*/
+/*used one time for separate tag*/
 body{
     font-family: 'Noto Sans JP', sans-serif;
     padding:0px;
-}
-
-h1{
-    
-    font-size:60px;
-    padding:0px;
-    margin:0px;
-
 }
 
 section{
@@ -23,14 +16,6 @@ section{
     background-size:cover; 
 }
 
-.name-color{
-    color:#EC4C7A;
-}
-
-h2{
-    font-size:35px;               
-}
-
 .half-width{
     width:40%;
     height:40%;
@@ -39,8 +24,30 @@ h2{
     padding:2%;
 }
 
-.half-width img{
-    width:100%;
+
+h2{
+    font-size:35px;               
+}
+
+h1{
+    
+    font-size:60px;
+    padding:0px;
+    margin:0px;
+
+}
+/*used one time for separate tag*/
+/*used one time for separate tag*/
+
+
+
+
+
+
+/*starting of user discription*/
+/*starting of user discription*/
+.name-color{
+    color:#EC4C7A;
 }
 
 .half-width p{
@@ -58,10 +65,19 @@ h2{
     font-size:14px;
 }
 
-/*biography-section*/
-/*biography-section*/
+.half-width img{
+    width:100%;
+}
+/*Eanding of user discription*/
+/*Eanding of user discription*/
 
 
+
+
+
+
+/*starting of biography-section*/
+/*starting of biography-section*/
 .biography-section{
    background-image:url(
        images/biography-bg.png
@@ -70,15 +86,30 @@ h2{
    margin-bottom:5%;
 }
 
-.latest-workes h2{
+.latest-work h2{
     text-align:center;
     margin-bottom:5%
 }
+/*Ending of biography-section*/
+/*Ending of biography-section*/
 
-.latest-workes{
+
+
+
+
+
+/*Starting of latest-work*/
+/*Starting of latest-work*/
+.latest-work{
     background-image:url(images/latest-work-bg.png);
     background-size:cover;
     height:400px;
+}
+
+.works-maindiv{
+    width:90%;
+    margin:0 auto;
+    height:300px;
 }
 
 .project{
@@ -91,31 +122,31 @@ h2{
 .project img{
     width:100%;
 }
+/*Eanding of latest-work*/
+/*Eanding of latest-work*/
 
-.works-maindiv{
-    width:90%;
-    margin:0 auto;
-    height:300px;
-}
 
+
+
+
+
+/*Starting of footer*/
+/*Starting of footer*/
 .footer{
+    background-image:url(images/footer-bg.png);
+    background-size:cover;
     text-align:center;
+}
 }
 
 h3{
   margin:0px;
-
 }
 
 .clients-massage{
-   margin-top:5%;
-   margin-bottom:5%;
-}
-
-.footer{
-    background-image:url(images/footer-bg.png);
-    background-size:cover;
-}
+    margin-top:5%;
+    margin-bottom:5%;
+ }
 
 .footer p{
     margin:0px;
@@ -131,23 +162,20 @@ h3{
     margin:5% auto;
     color:white;
     background-image: linear-gradient(45deg, #EC5197, #ED4B6E);
-    margin-bottom:8%;
-    
-}
-
-.massage-box a{
-    text-decoration:none;
-    color:white;
-    font-weight: bold;
-    font-size:25px;
+    margin-bottom:6%;
     
 }
 
 .massage-box p{
     padding:5% 0% 2% 0%;
     font-size:16px;
-   
-   
+}
+
+.massage-box a{
+    text-decoration:none;
+    color:white;
+    font-weight: bold;
+    font-size:25px;  
 }
 
 .copyright{
@@ -155,3 +183,5 @@ h3{
     font-size:15px;
     margin-top:10%;
 }
+/*Eanding of footer*/
+/*Eanding of footer*/
